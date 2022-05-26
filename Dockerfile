@@ -1,5 +1,5 @@
 FROM heroku/heroku:18
-LABEL maintainer="https://github.com/ShadowsocksR-Live/"
+LABEL maintainer="https://github.com/zopinr/"
 
 RUN apt install curl unzip -y \
  && mkdir -m 777 /ssrbin \
